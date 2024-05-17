@@ -1,5 +1,5 @@
 -- 모든 건축 유형 테이블과 위치 테이블을 조인
-CREATE OR REPLACE TABLE myzip.analytics.total_data_location AS
+CREATE OR REPLACE TABLE myzip.analytics.total_data_location AS 
 SELECT 
     Type, no, 
     district, 
